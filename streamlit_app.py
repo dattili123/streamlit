@@ -33,9 +33,9 @@ def extract_and_split_text(pdf_path):
 
 # Initialize the knowledge base
 knowledge_base = {
-    "S3": extract_and_split_text("aws-pdf-knowledge-base/s3.pdf"),
-    "EC2": extract_and_split_text("aws-pdf-knowledge-base/ec2.pdf"),
-    "IAM": extract_and_split_text("aws-pdf-knowledge-base/iam.pdf")
+    "S3": extract_and_split_text("aws-docs/s3.pdf"),
+    "EC2": extract_and_split_text("aws-docs/ec2.pdf"),
+    "IAM": extract_and_split_text("aws-docs/iam.pdf")
 }
 
 def match_query_to_text(service_name, query):
