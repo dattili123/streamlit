@@ -1,8 +1,4 @@
-Here is a **customer-facing documentation** designed with **clarity, professionalism, and customer obsession** in mind. It focuses on reliability, security, and transparency — values that align with enterprise expectations when discussing system health and GitLab integrity assurance.
-
----
-
-# ✅ GitLab Healthcheck Solution (Customer-Facing Documentation)
+# GitLab Healthcheck Solution (Customer-Facing Documentation)
 
 ## Overview
 
@@ -12,15 +8,15 @@ This healthcheck system operates silently in the background and performs regular
 
 ---
 
-## 🌟 Key Benefits
+##  Key Benefits
 
 | Feature                         | Description                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------|
-| ✅ **Zero-downtime Validation** | Silent background checks without interfering with GitLab operations         |
-| 🔐 **Secure and Internal**      | No APIs exposed externally – all checks are executed on the host itself     |
-| 🧠 **Comprehensive Coverage**   | Includes database readiness, Git repo integrity (`git fsck`), and app liveness |
-| 📊 **Transparent Logs**         | Output can be logged, monitored, and integrated with customer tools (e.g., ELK, Splunk) |
-| 💡 **Customer-obsessed Design** | Built to help you identify issues **before** they become service-impacting  |
+| **Zero-downtime Validation** | Silent background checks without interfering with GitLab operations         |
+| **Secure and Internal**      | No APIs exposed externally – all checks are executed on the host itself     |
+| **Comprehensive Coverage**   | Includes database readiness, Git repo integrity (`git fsck`), and app liveness |
+| **Transparent Logs**         | Output can be logged, monitored, and integrated with customer tools (e.g., ELK, Splunk) |
+| **Customer-obsessed Design** | Built to help you identify issues **before** they become service-impacting  |
 
 ---
 
@@ -86,10 +82,10 @@ If an issue is found:
 
 | Integration Method | Description |
 |--------------------|-------------|
-| 🔁 **Cron Job**     | Run every 5 minutes to monitor GitLab components |
-| ⚙️ **Systemd Timer** | Native Linux service-level integration |
-| 📁 **File Logging**  | Output written to `/var/log/gitlab-healthcheck.log` |
-| 📈 **Log Forwarding**| Compatible with customer monitoring tools (e.g., Datadog, ELK, Splunk) |
+| **Cron Job**     | Run every 5 minutes to monitor GitLab components |
+| **Systemd Timer** | Native Linux service-level integration |
+| **File Logging**  | Output written to `/var/log/gitlab-healthcheck.log` |
+| **Log Forwarding**| Still need to figure out SNOW Dashboard |
 
 ---
 
@@ -111,33 +107,3 @@ We understand every customer has different needs. We can:
 - All code and logic is auditable, traceable, and logged
 
 ---
-
-## Why We Built This for You
-
-At the core of this initiative is our **customer obsession**:
-
-- We want to **prevent failures before they affect you**
-- We want you to **have full visibility** into system health
-- We designed this to be **secure-by-default**, **simple to deploy**, and **easy to trust**
-
-> “We care about your data. This tool exists to protect it — transparently and proactively.”
-
----
-
-## Next Steps
-
-- ✅ Already deployed and running on your instance
-- 🧪 If you'd like real-time alerts or log access, we can integrate with your existing observability platform
-- 📞 Want to customize it further? Let us know — we’re here to tailor it for you
-
----
-
-## Contact Us
-
-If you have any questions, want more visibility, or would like to customize the checks, please reach out to your Technical Account Manager or our Engineering team directly.
-
-Together, let's keep your GitLab rock-solid. 💪
-
----
-
-Would you like this exported to a branded **PDF** or in a **PowerPoint slide format** for customer review sessions?
